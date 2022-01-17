@@ -1,0 +1,141 @@
+.MainContainer {
+    width: 100%;
+    /* margin: -33px auto; */
+    /* height: 669px; */
+    /* position: absolute; */
+    /* left: 1%; */
+    /* top: 0; */
+
+
+    /* border: 1px solid red; */
+}
+.Carousel {
+  /* border: 2px solid #416be4; */
+
+
+  height: 55%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  /* background: #fff; */
+  /* box-shadow: 0 0 4px rgb(0 0 0 / 20%), 0 4px 10px rgb(0 0 0 / 10%); */
+  margin-bottom: 12%;
+}
+.Slider {
+  display: flex;
+  height: 90%;
+  width: 400%;
+
+}
+
+.Slider section {
+  flex-basis: 100%;
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+  /* font-size: 20px; */
+  transition:all 0.3s
+  
+}
+.Slider .DetailsBox h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #002c3e;
+  line-height: 70px;
+}
+ .DetailsBox h1 span {
+  color: #f7444e;
+}
+
+ .DetailsBox p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 1.5rem;
+}
+
+
+
+ .DetailsBox a {
+  display: inline-block;
+  padding: 12px 45px;
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.DetailsBox h1{
+font-size: 4.5rem;
+font-weight: bold;
+margin-bottom: 15px;
+color: #002c3e;
+line-height: 70px;
+
+
+}
+
+
+.DetailsBox a:hover,.DetailsBox a:focus {
+
+  background-color: transparent;
+  color: red;
+
+}
+
+.DetailsBox h1 span {
+color: #f7444e;
+}
+.DetailsBox{
+height: 100%;
+width: 50%;
+margin-left: 5%;
+}
+
+
+ .Controls  {
+ margin-left: 5%;
+ margin-top: 1%;
+
+}
+.Controls ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  
+}
+.Controls ul .listItem {
+  margin: 2px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #ffffff;
+
+  cursor: pointer;
+}
+
+
+.Controls ul  :first-child{
+
+}
+
+.Controls ul li.Clicked{
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  margin-top: -1px;
+ }
+
+.animation{
+    transform: translate(-25%);
+    transition: all 0.3s;
+}
+
+
+

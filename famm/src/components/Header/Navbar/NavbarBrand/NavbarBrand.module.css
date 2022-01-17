@@ -1,0 +1,25 @@
+.NavbarBrand {
+    font-family: 'Playfair Display', serif;
+  }
+  .NavbarBrand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+  .NavbarBrand span {
+    font-weight: bold;
+    font-size: 32px;
+    color: #000000;
+  }
+
+
+
+
+  .NavbarBrand:hover, .NavbarBrand:focus {
+    text-decoration: none;
+  }
+  

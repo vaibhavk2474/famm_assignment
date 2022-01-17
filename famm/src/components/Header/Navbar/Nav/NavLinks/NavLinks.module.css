@@ -1,0 +1,255 @@
+.NavbarNav {
+    margin-left: auto;
+  }
+
+  .NavbarNav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  .NavbarNav .NavItem .NavLink{
+    padding: 5px 20px;
+    color: #131313;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    font-weight: 700;
+}
+
+
+ .NavbarNav .NavItem .NavLink svg {
+  width: 17px;
+  height: auto;
+  fill: #000000;
+  margin-bottom: 2px;
+ }
+
+
+ .NavLink{
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+
+.NavbarNav .NavLink {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+
+
+
+ .NavbarNav .NavItem:hover .NavLink,  .NavbarNav .NavItem.active .NavLink{
+    color: #f7444e;
+  }
+
+  .active{
+
+  }
+
+
+  
+
+
+
+
+
+
+  .NavbarNav .NavItem:hover .NavLink svg,  .NavbarNav .NavItem.active .NavLink svg {
+    fill: #f7444e;
+  }
+  
+  .NavbarNav{
+    margin-left: auto;
+}
+
+
+.Dropdown{
+    position: relative;
+}
+
+.DropdownToggle {
+    white-space: nowrap;
+}
+
+.DropdownToggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.DropdownMenu {
+    position: absolute;
+    top: 5%;
+    left: 58%;
+    z-index: 1000;
+    /* display: none; */
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+
+  .DropdownMenu a:hover{
+      color:  red;
+  }
+
+  li.NavItem ul li a {
+    color: #212529;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin-top: 10px;
+    transition: ease all 0.5s;
+}
+
+  li.NavItem ul li {
+    float: left;
+    width: 100%;
+    margin: 6px 0;
+}
+  li.NavItem ul {
+    background: #fff;
+    border: solid #000 2px;
+    border-radius: 0;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 0px 0 #000;
+    width: 190px;
+}
+
+
+
+
+
+/* form */
+.FormInline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.Btn, .Btn:focus {
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.Nav_searchBtn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+    color: #000000;
+}
+
+.FormInline .Nav_searchBtn svg:hover, .FormInline .Nav_searchBtn svg:focus{
+    color: red;
+}
+
+/* form end*/
+
+.CartTotalItemsContainer{
+    position: relative;
+}
+.CartTotalItemsContainer .CartTotalItemsContainer{
+    border: 1px solid; 
+    border-radius: 50%;
+    height: 22px;
+    width: 20px;
+    display: inline-block;
+    overflow: hidden;
+    /* padding-bottom: 21px; */
+    position: absolute;
+    left: 51%;
+    top: -18%;
+    color: #f8f0f0;
+    background: red;
+
+}
+
+@media (min-width: 992px){
+    .NavbarNav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }  
+
+
+   .NavLink{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+   } 
+
+
+   .NavbarNav .DropdownMenu {
+       position: absolute;
+   }
+
+   .DropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    /* display: none; */
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+}
+
+

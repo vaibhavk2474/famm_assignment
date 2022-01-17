@@ -1,0 +1,44 @@
+.WithToggle{
+    width: 45rem;
+
+    overflow: hidden;
+}
+.showMenuSlide{
+ 
+    animation-name: animation_01;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+
+  
+  @keyframes animation_01 {
+    0% {height: 0px;}
+
+    100% {height: 250px; display: none;}
+  }
+
+
+  .hideMenuSlide{
+    animation-name: animation_02;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+
+  
+  @keyframes animation_02 {
+    0% {height: 250px;}
+
+    100% {height: 0px;}
+  }
+@media (min-width: 992px){
+
+    .WithToggle{
+        display: none;
+    }
+    
+    
+}

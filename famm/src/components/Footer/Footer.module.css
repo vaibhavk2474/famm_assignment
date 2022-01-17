@@ -1,0 +1,240 @@
+
+.Container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.Full{
+
+}
+.LogoFooter{
+ 
+        margin-bottom: 30px;
+
+}
+
+.Information_f{
+
+}
+.Information_f p {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    line-height: 25px;
+    font-size: 15px;
+}
+.WidgetMenu{
+    float: left;
+    width: 100%;
+
+}
+
+.WidgetMenu h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    margin-bottom: 25px;
+}
+.WidgetMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.WidgetMenu ul li {
+    float: left;
+    width: 100%;
+}
+
+.WidgetMenu ul li a {
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 0;
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+.FormSub{
+    position: relative;
+
+
+}
+
+.field{
+display: flex;
+}
+
+form input {
+    background: #fff;
+    border: solid #ccc 1px;
+    padding: 15px 15px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    line-height: normal;
+}
+
+
+div.FormSub .field input[type="email"], div.FormSub .field input[type="email"]:hover, div.FormSub .field input[type="email"]:focus {
+    padding: 10px 110px 10px 15px;
+    border-radius: 0;
+    border: solid #ccc 1px;
+    font-size: 14px;
+    position: relative;
+    box-shadow: none;
+    width: 100%;
+    height: 48px;
+}
+
+form input[type="submit"] {
+    border: none;
+    padding: 15px 45px;
+    width: auto;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: normal;
+    margin: 0 auto;
+    display: flex;
+    background: #333;
+    color: #fff;
+    font-weight: 600;
+    transition: ease all 0.1s;
+}
+
+
+.FormSub input[type="email"] + input[type="submit"] {
+    position: absolute;
+    right: 0;
+    background: #f7444e;
+    color: #fff;
+    border: none;
+    top: 0px;
+    font-size: 14px;
+    height: 48px;
+    font-weight: 600;
+    padding: 0 15px;
+}
+.Col_md_4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.Col_md_8{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.Col_md_7{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.Col_md_6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.Col_md_5{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.Cpy_ {
+    background: #222;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Cpy_ p {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Cpy_ p a {
+    text-decoration: none;
+    margin: 0;
+    color: #f7444e;
+    font-size: 15px;
+    font-weight: 400;
+}
+@media (min-width: 576px){
+    .Container {
+        max-width: 540px;
+    }
+
+
+}
+
+
+@media (min-width: 768px){
+    .Container {
+        max-width: 720px;
+    }
+
+    .Col_md_4{
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .Col_md_8{
+        -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+    
+
+.Col_md_7{
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.Col_md_6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.Col_md_5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+
+}
+
+
+
+
+@media (min-width: 992px){
+    .Container {
+        max-width: 960px;
+    }
+
+
+}
+
+
+

@@ -1,0 +1,165 @@
+.ArrivalSection{
+
+        background-color: #d4ced0;
+    
+}
+
+.Container{
+
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+}
+
+.Box{
+
+}
+
+.Box {
+    padding: 120px 45px;
+    position: relative;
+}
+
+.ArrivalBgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+
+.ArrivalSection .ArrivalBgBox img {
+    width: 50%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top left;
+    object-position: top left;
+}
+
+
+
+
+
+
+
+
+
+.Row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.Col_md_6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.Ml_auto{
+
+
+    margin-left: auto !important;
+}
+
+.HeadingContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+    color: #002c3e;
+    margin-bottom: 10px;
+}
+
+.HeadingContainer h2 {
+    position: relative;
+    margin-bottom: 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+
+    font-family: 'Playfair Display', serif;
+}
+
+
+.RemoveLineBt{
+
+}
+
+.ArrivalSection a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #f7444e;
+    border: 1px solid #f7444e;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+
+
+
+
+@media (min-width: 576px){
+
+    .Container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 767px){
+    .ArrivalSection .ArrivalBgBox img {
+        -o-object-position: top right;
+        object-position: top right;
+    }
+
+    .Box{
+        padding: 75px 25px;
+    }
+
+    .ArrivalBgBox img{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 768px){
+
+    .Container {
+        max-width: 720px;
+    }
+
+    .Col_md_6  {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+}
+@media (min-width: 992px){
+
+    .Container {
+        max-width: 960px;
+    }
+    
+}

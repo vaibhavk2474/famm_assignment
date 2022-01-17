@@ -1,0 +1,166 @@
+.SliderSection {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  padding: 90px 0 75px 0;
+}
+
+.SliderBgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.SliderBgBox img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top right;
+  object-position: top right;
+}
+
+.CarouselItem {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+
+  margin-left: -20%;
+}
+
+.active{
+
+}
+
+.Carousel {
+    position: relative;
+}
+
+
+
+
+.Container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Row{
+
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+
+}
+
+
+.SliderSection .Row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.SliderSection .DetailBox h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #002c3e;
+    line-height: 70px;
+}
+
+.SliderSection .DetailBox h1 span {
+    color: #f7444e;
+}
+
+.SliderSection .DetailBox p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.CarouselItem.active, .CarouselItemNext, .CarouselItemPrev{
+    display: block;
+}
+
+
+.SliderSection .DetailBox a {
+    display: inline-block;
+    padding: 12px 45px;
+    background-color: #f7444e;
+    border: 1px solid #f7444e;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+
+
+
+@media (max-width: 720px){
+
+
+  .CarouselItem{
+    margin-left: -30%;
+
+  }
+    
+    
+    
+}
+
+@media (min-width: 576px){
+
+
+    .Container {
+        max-width: 540px;
+    }
+    
+    
+}
+
+@media (min-width: 768px){
+    .Col_md_7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .Container {
+        max-width: 720px;
+    }
+}
+
+
+    
+
+.Col_md_7, .Col_lg_6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+

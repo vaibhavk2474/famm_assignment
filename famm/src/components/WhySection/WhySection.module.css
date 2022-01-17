@@ -1,0 +1,76 @@
+.LayoutPadding {
+    padding: 70px 0;
+}
+
+
+
+.Container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.HeadingContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.HeadingContainer.HeadingCenter {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.HeadingContainer h2 {
+    position: relative;
+    margin-bottom: 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.HeadingContainer h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #f7444e;
+    margin: 10px auto 10px;
+}
+@media (min-width: 576px){
+    .Container {
+        max-width: 540px;
+
+    }
+}
+
+
+
+@media (min-width: 768px){
+    .Container {
+        max-width: 720px;
+
+    }
+}
+
+
+@media (min-width: 992px){
+    .Container {
+        max-width: 960px;
+
+    }
+}

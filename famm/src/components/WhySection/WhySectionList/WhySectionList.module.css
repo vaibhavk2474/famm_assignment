@@ -1,0 +1,51 @@
+.Row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.Box {
+    text-align: center;
+    margin-top: 45px;
+    background-color: #002c3e;
+    padding: 45px 50px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.Box .ImgBox {
+    margin-bottom: 15px;
+}
+
+
+.Box .ImgBox svg {
+    width: 55px;
+    height: auto;
+    fill: #ffffff;
+}
+
+.DetailBox h5 {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.Col_md_4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+@media (min-width: 768px){
+
+    .Col_md_4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+}

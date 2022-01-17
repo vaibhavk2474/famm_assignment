@@ -1,0 +1,89 @@
+/* NavLinks start */
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+
+.custom_nav-container .navbar-nav{
+  margin-left: auto;
+}
+
+
+.navlink {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.navlink:hover, .navlink:focus {
+  text-decoration: none;
+}
+
+.navlink.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
+.navbar-nav .navlink {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+  padding: 5px 20px;
+  color: #131313;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link , .custom_nav-container .navbar-nav .nav-item.active .nav-link {
+  color: #f7444e;
+}
+
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+/* NavLinks end */
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+
+/* NavLinks starts */
+.navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+
+  .navbar-expand-lg .navbar-nav .navlink {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+/* NavLinks ends */
+
+
+}

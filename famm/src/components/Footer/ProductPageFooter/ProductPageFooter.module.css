@@ -1,0 +1,279 @@
+.FooterSection{
+
+    background-color: #002c3e;
+    color: #ffffff;
+    padding-top: 70px;
+
+    color: #ffffff;
+    text-align: left;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.Container{
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.Col_md_4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.FooterCol{
+
+}
+
+ .FooterCol {
+    margin-bottom: 30px;
+}
+.foo h4 {
+    font-size: 28px;
+}
+
+.FooterSection h4 {
+    font-size: 28px;
+}
+
+.FooterSection h4, .FooterSection .FooterLogo {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+}
+
+.FooterSection .FooterContact .ContactLinkBox{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+.FooterSection .FooterContact .ContactLinkBox a {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+
+.FooterSection .FooterContact .ContactLinkBox a:hover {
+    margin: 10px 0;
+    color: red;
+
+}
+.FooterSection .FooterContact .ContactLinkBox a svg {
+   width: 1.75rem;
+}
+
+.FooterContact{
+
+}
+
+.FooterDetails{
+
+}
+
+.FooterLogo{
+
+}
+
+.FooterSocial{
+
+}
+
+.FooterSection .FooterSocial a:hover{
+ color: red;
+}
+
+.MapContainer{
+
+}
+
+
+.Map{
+
+
+
+}
+.GoogleMap{
+
+}
+
+.FooterInfo{
+
+}
+
+.Col_lg_7{
+
+}
+
+.Mx_auto{
+
+}
+
+.Px_0{
+
+}
+
+.FooterSection .FooterCol {
+    margin-bottom: 30px;
+}
+
+.FooterSection h4, .FooterSection .FooterLogo{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+}
+
+.FooterSection .FooterLogo {
+    display: block;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.FooterSection .FooterSocial {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+    -ms-flex-pack: center;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.FooterSection .FooterSocial a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #002c3e;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    border-radius: 100%;
+    margin: 0 2.5px;
+    font-size: 18px;
+}
+
+.FooterSection .MapContainer {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.FooterSection .MapContainer .map {
+    height: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.FooterSection .FooterSection .MapContainer 
+    .Map .GoogleMap {
+    height: 100%;
+}
+
+.FooterSection .FooterInfo{
+    text-align: center;
+    margin-top: 25px;
+}
+.Col_lg_7{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.Px_0 {
+    padding-left: 0 !important;
+}
+.Px_0 {
+    padding-right: 0 !important;
+}
+
+.Mx_auto {
+    margin-left: auto !important;
+}
+.Mx_auto {
+    margin-right: auto !important;
+}
+
+
+.FooterSection .FooterInfo p {
+    color: #ffffff;
+    margin: 0;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.FooterSection .FooterInfo p a {
+    color: inherit;
+    padding-left: 5px;
+}
+@media (min-width: 576px){
+    .Container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .Container {
+        max-width: 720px;
+    }
+
+    .Col_md_4{
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    
+}
+
+@media (min-width: 992px){
+    .Container {
+        max-width: 960px;
+    }
+
+    .Col_lg_7{
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+}
+

@@ -1,0 +1,351 @@
+body {
+    background: #eee;
+  }
+  .Container {
+    width: 100%;
+    margin:20px auto;
+  }
+  .Carousel {
+    border: 2px solid #416be4;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .Slider {
+    display: flex;
+    height: 100%;
+    width: 400%;
+  
+  }
+  .Slider section {
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    transition:all 0.3s;
+    position: relative;
+    
+    
+  }
+  .Left, .Right {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .Arrow i {
+    font-size: 70px;
+    -webkit-user-select: none;
+    color: #416be4;
+  }
+  .Left {
+    left: 25%;
+    background: red;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    /* text-align: center; */
+    /* padding-top: 11px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .Right {
+    right: 25%;
+    background: red;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    /* text-align: center; */
+    /* padding-top: 11px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Right:hover,.Right:focus{
+    background-color:#333;
+    
+  
+
+}
+  .Left:hover,.Left:focus{
+      background-color:#333;
+      
+    
+
+  }
+  .Controls ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%);
+  }
+  .Controls ul li {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border: 2px solid #333;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .Controls ul li.Selected {
+    background: transparent;
+  }
+
+  .animation{
+      transform: translate(-25%);
+      transition: all 0.3s;
+  }
+  
+
+  .Controls i svg{
+      width: 1rem;
+  }
+
+
+
+
+
+
+
+
+  .Carousel{
+    position: relative;
+
+}
+.Slide{
+
+}
+
+.CarouselInnner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+.CarouselItem{
+    position: relative;
+    /* display: none; */
+    visibility: hidden;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+
+
+
+}
+.CarouselItem.Active{
+    display: block;
+    visibility:visible;
+    transform: translate(-25%);
+
+}
+
+.Box{
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 55px;
+    
+}
+
+.Col_lg_10{
+
+}
+
+.Mx_auto{
+  margin-left: auto !important;
+}
+
+.ImgContainer{
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+
+    position: absolute;
+    left: 41%;
+    top: 2%;
+}
+
+.ImgBox{
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin-right: -1px;
+}
+
+.ImgBoxInner{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+
+ 
+}
+.ImgBoxInner img{
+    width: 100%;
+}
+
+.DetailsBox{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.DetailsBox h5{
+
+    margin-top: 0;
+
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+
+
+}
+
+.DetailsBox  h6{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+    font-size: 15px;
+    color: #999998;
+
+}
+
+.DetailsBox p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.CarouselInnner::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+.CarouselBtnBox{
+
+}
+
+.CarouselControlsPrev,
+.CarouselControlsNext{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+
+}
+
+.CarouselControlsPrev {
+    left: 0;
+}
+
+.CarouselControlsPrev,.CarouselControlsNext{
+
+    top: 43%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+    width: auto;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    color: #ffffff;
+    background-color: #f7444e;
+    border-radius: 100%;
+}
+
+ .CarouselControlsPrev {
+    left: 25%;
+}
+
+
+.CarouselControlsNext {
+    right: 25%;
+}
+
+
+
+@media (max-width:992px) {
+
+    .ImgBoxInner{
+        width: 100px;
+        height: 100px;
+
+    }
+    
+}

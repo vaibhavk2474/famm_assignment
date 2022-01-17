@@ -1,0 +1,27 @@
+.NavbarCollapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+
+  .Show{
+    display: none;
+  }
+
+  @media (min-width: 992px){
+    .NavbarCollapse {
+      display: -ms-flexbox ;
+      display: flex ;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  }
+
+  .Show{
+    display: flex ;
+  }
+
+  }
