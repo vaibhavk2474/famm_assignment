@@ -1,0 +1,2 @@
+go to famm -> npm install -> npm start
+go to server -> npm install->npm start
