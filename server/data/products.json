@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "details": {
+      "name": "Men's Shirt",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp1.png?alt=media&token=73f05504-c0f4-48c8-9e54-95e9e735443e"
+    }
+  },
+  {
+    "id": 2,
+    "details": {
+      "name": "Men's Shirt",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp2.png?alt=media&token=4de081a2-2432-430d-bd22-3612822e3732"
+    }
+  },
+  {
+    "id": 3,
+    "details": {
+      "name": "Women's Dress",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp3.png?alt=media&token=7af746c3-7770-444b-9881-7fd2f8f43f3e"
+    }
+  },
+  {
+    "id": 4,
+    "details": {
+      "name": "Women's Dress",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp4.png?alt=media&token=beee0fd9-48ef-4239-805a-4fccf04b5a42"
+    }
+  },
+  {
+    "id": 5,
+    "details": {
+      "name": "Women's Dress",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp5.png?alt=media&token=6e1a3ec1-2ca9-4b4d-bc15-dfa9dfdd79b6"
+    }
+  },
+  {
+    "id": 6,
+    "details": {
+      "name": "Women's Dress",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp6.png?alt=media&token=8f5d6406-0a09-422c-90b6-ee7d3becaf4e"
+    }
+  },
+  {
+    "id": 7,
+    "details": {
+      "name": "Women's Dress",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp7.png?alt=media&token=64637709-5661-467e-952f-d981b1e80ee5"
+    }
+  },
+  {
+    "id": 8,
+    "details": {
+      "name": "Men's Shirt",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp8.png?alt=media&token=cd3c2962-9c03-432d-9c44-e3881a3fb27f"
+    }
+  },
+  {
+    "id": 9,
+    "details": {
+      "name": "Men's Shirt",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp9.png?alt=media&token=e29495bf-55c6-451f-83fa-170c4639f33f"
+    }
+  },
+  {
+    "id": 10,
+    "details": {
+      "name": "Men's Shirt",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp10.png?alt=media&token=3dbc972f-c850-4dda-9b9a-4f799d606f2f"
+    }
+  },
+  {
+    "id": 11,
+    "details": {
+      "name": "Men's Shirt",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp10.png?alt=media&token=3dbc972f-c850-4dda-9b9a-4f799d606f2f"
+    }
+  },
+  {
+    "id": 12,
+    "details": {
+      "name": "Women's Dress",
+      "price": 75,
+      "pic": "https://firebasestorage.googleapis.com/v0/b/burger-app-b62f8.appspot.com/o/images%2Fp12.png?alt=media&token=a95b5ccf-7124-499b-974f-f0d2d0f19e7a"
+    }
+  }
+]
